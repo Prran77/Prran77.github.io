@@ -1,14 +1,14 @@
 body {
-  font-family: 'Arial', sans-serif;  /* Choose a modern font */
-  color: #333;                       /* Dark gray text for good contrast */
-
-  margin: 0;                         /* Reset default margins */
+  font-family: 'Roboto', sans-serif;  /* Modern sans-serif font */
+  color: #ffffff;                     /* Bright white text */
+  background-color: #f8f8f8;          
+  margin: 0;                          
   padding: 20px;
-   /* Add these lines for the background image */
-   background-image: url('https://img.freepik.com/premium-vector/neumorphic-rectangle-set-dark-style-web-elements-3d-design_574175-665.jpg?w=1060'); /* Path to your image */
-   background-repeat: no-repeat;            /* Prevents image repetition*/
-   background-size: cover;                  /* Makes the image cover the whole screen */
-   background-attachment: fixed;            /* Keeps image fixed on scroll */
+
+  background-image: url('/images/bg.jpg'); 
+  background-repeat: no-repeat;  
+  background-size: cover;    
+  background-attachment: fixed;
 }
 
 header {
