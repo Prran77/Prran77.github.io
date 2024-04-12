@@ -8,6 +8,11 @@ let currentImageIndex = 0;
 
 function showImage() {
     images.forEach(image => {
+        image.style.display = 'none'; // Hide all images first
+     });
+
+    images[currentImageIndex].style.display = 'block'; // Show only the current image 
+    images.forEach(image => {
         image.style.transform = 'translateX(-' + currentImageIndex * 100 + '%)'; 
     });
 }
