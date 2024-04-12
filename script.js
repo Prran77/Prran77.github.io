@@ -7,8 +7,9 @@ const nextButton = document.querySelector('.next');
 let currentImageIndex = 0;
 
 function showImage() {
-    images.forEach(image => image.style.display = 'none');
-    images[currentImageIndex].style.display = 'block'; 
+    images.forEach(image => {
+        image.style.transform = 'translateX(-' + currentImageIndex * 100 + '%)'; 
+    });
 }
 
 function nextImage() {
