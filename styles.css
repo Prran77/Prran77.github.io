@@ -27,3 +27,36 @@ footer {
   margin-top: 40px;
   font-size: 0.8em; 
 }
+
+#image-carousel {
+  position: relative;    
+  width: 500px; /* Adjust width as needed */
+  margin: 0 auto; 
+}
+
+.image-container {
+  overflow: hidden; /* Hide images outside the container */
+}
+
+.image-container img {
+  width: 100%; 
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); 
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev { 
+  left: 10px; 
+}
+
+.next { 
+  right: 10px; 
+}
