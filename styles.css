@@ -19,7 +19,9 @@ header {
 section {
   margin-bottom: 40px;
 }
-
+#cv {
+  margin-bottom: 40px; /* To match other section spacing */
+}
 footer {
   text-align: center;
   margin-top: 40px;
