@@ -39,7 +39,9 @@ footer {
 }
 
 .image-container img {
-  width: 100%; 
+  width: 80%; 
+  display: block;  /* Add this line */
+    
   transition: transform 0.5s ease-in-out; /* Adjust duration and easing as desired */
 
 }
